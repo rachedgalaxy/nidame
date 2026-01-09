@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    base: '/nidame/', // 🔥 الحل الأساسي
+    base: '/nidame/', // 🔥 اسم الريبو مهم
 
     server: {
       port: 3000,
@@ -22,7 +22,7 @@ export default defineConfig(({ mode }) => {
 
     resolve: {
       alias: {
-        '@': path.resolve(__dirname, 'src'), // ⚠️ تصحيح مهم
+        '@': path.resolve(__dirname, 'src'),
       },
     },
   };
